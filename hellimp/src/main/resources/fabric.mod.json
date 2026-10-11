@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "hellimp",
+  "version": "1.0.0",
+  "name": "Hell Imp",
+  "description": "Бес — адский вредин, дропает Сердце Демона для системы аксессуаров.",
+  "authors": [
+    "Eira"
+  ],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.hellimp.HellImpMod"
+    ]
+  },
+  "mixins": [
+    "hellimp.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "contact": {
+    "homepage": "https://example.com",
+    "sources": "https://example.com"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.vulcadavmod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "WolfBerryMixin",
+    "WolfBowProjectileMixin",
+    "WolfRodBobberMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

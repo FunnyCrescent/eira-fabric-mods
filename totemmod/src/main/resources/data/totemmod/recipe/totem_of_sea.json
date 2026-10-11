@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "HBH",
+    "BMB",
+    "HBH"
+  ],
+  "key": {
+    "B": {
+      "fabric:type": "fabric:custom_data",
+      "base": "minecraft:totem_of_undying",
+      "nbt": "{TotemBlank:1b}"
+    },
+    "H": "minecraft:turtle_helmet",
+    "M": "minecraft:heart_of_the_sea"
+  },
+  "result": {
+    "id": "minecraft:totem_of_undying",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": "{\"TotemSea\":1b}",
+      "minecraft:custom_name": {"text": "Тотем Моря", "color": "blue", "bold": true, "italic": false},
+      "minecraft:lore": [
+        {"text": "Артефакт", "color": "yellow", "italic": false},
+        {"text": "Держите во второй руке", "color": "gray", "italic": false},
+        {"text": "Бесконечное дыхание под водой", "color": "dark_aqua", "italic": false},
+        {"text": "Скорость копания как на суше", "color": "dark_aqua", "italic": false}
+      ]
+    }
+  },
+  "show_notification": true
+}

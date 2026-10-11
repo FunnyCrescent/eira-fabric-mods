@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.settlementdestroyer.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PersistentProjectileEntityInvoker",
+    "TridentEntityHitMixin",
+    "LivingEntityFangInvulnMixin",
+    "PlayerEntityAttackMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

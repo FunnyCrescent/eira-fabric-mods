@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "bettercrafter",
+  "version": "${version}",
+  "name": "BetterCrafter",
+  "description": "Improves the crafter block with enhanced functionality. Prevents consuming the last item in any slot.",
+  "authors": [
+    "Eira"
+  ],
+  "contact": {
+    "sources": "https://github.com/UlasuNoka/BetterCrafter"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/bettercrafter/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.UlasuNoka.bettercrafter.BetterCrafter"
+    ]
+  },
+  "mixins": [
+    "bettercrafter.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.13",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

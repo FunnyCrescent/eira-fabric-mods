@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.elytramod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AnvilScreenHandlerMixin",
+    "EndCityPieceMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

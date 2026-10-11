@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "adminmod",
+  "version": "${version}",
+  "name": "Admin Tools",
+  "description": "Serverside-only: auto-restart at 05:00 MSK with chat warnings (5min/1min/30sec). Manual restart trigger via config/adminmod/restart.now file.",
+  "authors": [
+    "Eira"
+  ],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.adminmod.AdminMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

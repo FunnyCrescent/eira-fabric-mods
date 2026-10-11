@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.hellimp.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerEntityNbtMixin",
+    "LivingEntityFallDamageMixin",
+    "PlayerEntityFoodMixin",
+    "EntityGravityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

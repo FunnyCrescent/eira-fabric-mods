@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "MNM",
+    "NSN",
+    "MNM"
+  ],
+  "key": {
+    "M": "minecraft:phantom_membrane",
+    "N": "minecraft:string",
+    "S": "minecraft:nether_star"
+  },
+  "result": {
+    "id": "minecraft:elytra",
+    "count": 1
+  },
+  "show_notification": true
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": "{\"HeartOfDemon\":1b}",
+                "minecraft:custom_name": {"text": "Сердце Демона", "color": "dark_red", "bold": true, "italic": false},
+                "minecraft:lore": [
+                  {"text": "Дроп с Беса", "color": "gray", "italic": false},
+                  {"text": "ПКМ — расширить слоты аксессуаров до 7", "color": "yellow", "italic": false}
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.25
+        }
+      ]
+    }
+  ],
+  "random_sequence": "hellimp:entities/hell_imp"
+}

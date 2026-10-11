@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " B ",
+    "BAR",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "fabric:type": "fabric:custom_data",
+      "base": "minecraft:totem_of_undying",
+      "nbt": "{TotemBlank:1b}"
+    },
+    "A": "minecraft:respawn_anchor",
+    "R": {
+      "fabric:type": "fabric:custom_data",
+      "base": "minecraft:totem_of_undying",
+      "nbt": "{TotemInventory:1b}"
+    }
+  },
+  "result": {
+    "id": "minecraft:totem_of_undying",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": "{\"TotemInventory\":1b}",
+      "minecraft:custom_name": {"text": "Тотем Сохранения Инвентаря", "color": "aqua", "bold": true, "italic": false},
+      "minecraft:lore": [
+        {"text": "Расходник", "color": "yellow", "italic": false},
+        {"text": "Сохраняет инвентарь при смерти", "color": "gray", "italic": false},
+        {"text": "Тотем уничтожается", "color": "gray", "italic": false}
+      ]
+    }
+  },
+  "show_notification": true
+}

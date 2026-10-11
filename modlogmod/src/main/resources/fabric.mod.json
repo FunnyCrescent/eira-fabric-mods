@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "modlogmod",
+  "version": "${version}",
+  "name": "Mod Log Router",
+  "description": "Serverside-only: routes log messages from totemmod and villagermod into a separate logs/mods.log file in addition to the main server log.",
+  "authors": [
+    "Eira"
+  ],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.modlogmod.ModLogMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21"
+  }
+}

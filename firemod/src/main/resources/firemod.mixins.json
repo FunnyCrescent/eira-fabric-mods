@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.firemod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EntityFireMixin",
+    "FireBlockMixin",
+    "ProjectileFireMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

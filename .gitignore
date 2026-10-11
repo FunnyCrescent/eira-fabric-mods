@@ -1,0 +1,24 @@
+# Build artifacts
+build/
+.gradle/
+*.class
+
+# Gradle wrapper (keep the wrapper itself, ignore cache)
+gradle/wrapper/gradle-wrapper.jar
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "totemmod",
+  "version": "${version}",
+  "name": "Totem Rebalance",
+  "description": "Serverside-only rebalance: no emerald drops from any mob; Evoker drops a Blank Totem (10%) instead of a real Totem; real Totem of Undying is crafted cross-shape from 4 Blank Totems + 1 Nether Star; Warden also drops a Nether Star.",
+  "authors": [
+    "Eira"
+  ],
+  "contact": {
+    "homepage": "https://example.com",
+    "sources": "https://example.com"
+  },
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.totemmod.TotemMod"
+    ]
+  },
+  "mixins": [
+    "totemmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

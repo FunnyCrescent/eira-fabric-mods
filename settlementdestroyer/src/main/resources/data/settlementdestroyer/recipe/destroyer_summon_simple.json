@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "   ",
+    "ABA",
+    "   "
+  ],
+  "key": {
+    "A": "minecraft:gray_banner",
+    "B": "minecraft:ominous_bottle"
+  },
+  "result": {
+    "id": "minecraft:echo_shard",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": "{\"DestroyerSummon\":1b}",
+      "minecraft:custom_name": {"text": "Знак Разрушителя", "color": "dark_red", "bold": true, "italic": false},
+      "minecraft:lore": [
+        {"text": "Призывает Разрушителя Поселений", "color": "gray", "italic": false},
+        {"text": "ПКМ по блоку — использовать", "color": "yellow", "italic": false}
+      ],
+      "minecraft:enchantment_glint_override": true
+    }
+  },
+  "show_notification": true
+}

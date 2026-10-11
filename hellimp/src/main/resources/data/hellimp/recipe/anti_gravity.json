@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "MMM",
+    "MAM",
+    "MMM"
+  ],
+  "key": {
+    "M": "minecraft:phantom_membrane",
+    "A": "minecraft:arrow"
+  },
+  "result": {
+    "id": "minecraft:arrow",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": "{\"AntiGravityAccessory\":1b}",
+      "minecraft:custom_name": {"text": "Аксессуар Антигравитации", "color": "aqua", "bold": true, "italic": false},
+      "minecraft:lore": [
+        {"text": "Аксессуар", "color": "gold", "italic": false},
+        {"text": "Убирает гравитацию у стрел", "color": "gray", "italic": false},
+        {"text": "Стрелы летят ровно, пока не врежутся", "color": "gray", "italic": false},
+        {"text": "Поместите в слот аксессуара через /aks", "color": "yellow", "italic": false}
+      ],
+      "minecraft:enchantment_glint_override": true
+    }
+  },
+  "show_notification": true
+}

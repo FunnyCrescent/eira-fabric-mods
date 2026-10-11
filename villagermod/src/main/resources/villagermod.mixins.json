@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.villagermod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "GiveGiftsToHeroTaskMixin",
+    "MerchantEntityAccessor",
+    "RaidMixin",
+    "VillagerEntityMixin",
+    "WanderingTraderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.totemmod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LivingEntityMixin",
+    "PlayerTickMixin",
+    "ServerPlayerDeathMixin",
+    "WardenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
