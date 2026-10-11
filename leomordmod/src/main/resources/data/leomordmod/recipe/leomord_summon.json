@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " C ",
+    "BBB",
+    "BFB"
+  ],
+  "key": {
+    "C": "crownmod:royal_crown",
+    "B": "minecraft:bone",
+    "F": "minecraft:flint_and_steel"
+  },
+  "result": {
+    "id": "minecraft:echo_shard",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": "{\"LeomordSummon\":1b}",
+      "minecraft:custom_name": {"text": "Зов Леоморда", "color": "dark_red", "bold": true, "italic": false},
+      "minecraft:lore": [
+        {"text": "Призывает Леоморда — Вождя Падших", "color": "gray", "italic": false},
+        {"text": "ПКМ по блоку — призвать босса", "color": "yellow", "italic": false},
+        {"text": "Огниво в крафте теряет 50% прочности", "color": "dark_gray", "italic": false}
+      ],
+      "minecraft:enchantment_glint_override": true
+    }
+  },
+  "show_notification": true
+}

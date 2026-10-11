@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "leomordmod",
+  "version": "${version}",
+  "name": "Leomord",
+  "description": "Wither Skeleton boss with 3 phases: Rider (Skeleton Horse), Foot fight (Get Over Here + combo x2), Artillery (crossbow multi-shot + stunning arrows). Drops Leomord Loot Bag.",
+  "authors": [
+    "Eira"
+  ],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.leomordmod.LeomordMod"
+    ]
+  },
+  "mixins": [
+    "leomordmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*",
+    "crownmod": "*"
+  },
+  "recommends": {
+    "polymer-core": "*"
+  },
+  "contact": {
+    "homepage": "https://example.com",
+    "sources": "https://example.com"
+  }
+}

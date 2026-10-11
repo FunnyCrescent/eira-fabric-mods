@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.leomordmod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CraftingResultSlotMixin",
+    "PersistentProjectileEntityAccessor",
+    "PersistentProjectileHitMixin",
+    "PlayerStunMixin",
+    "TridentEntityHitMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

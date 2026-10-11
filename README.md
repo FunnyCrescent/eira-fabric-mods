@@ -16,6 +16,11 @@ Author: Eira. License: MIT.
 - vulcadavmod — Vulcadav 3-phase boss, wolf box, wolf bow, wolf rod, wolf berries, graves, loot bags
 - settlementdestroyer — Ravager boss "Settlement Destroyer" with 2 phases, converging fang ring, dash attack, Three Fangs Trident with /dtr PvP toggle
 - hellimp — Бес (адский вредин) в Незере, дропает Сердце Демона для расширения слотов аксессуаров (6→7), команда /aks
+- leomordmod — Leomord boss (WitherSkeleton base, 3 phases), FireSymbol accessory, ExplosiveSpear, LiftSword, FireBow, depends on hellimp + crownmod
+- crownmod — Java resource pack: Royal Crown textures (golden helmet override for Even More Crowns)
+
+## Resource Packs
+- crownmod — Java-only resource pack that overrides golden helmet textures with Royal Crown textures. Required by leomordmod for visual consistency.
 
 ## Documentation
 - `LESSONS_LEARNED.md` — напутствие для следующей нейросети: mixin грабли, паттерны, частые ошибки
@@ -43,6 +48,17 @@ Requirements: JDK 21, Gradle 9.5.0 (wrapper included), internet for Maven deps.
 - `/destroyergive summon|lootbag|trident|all` — gives custom items
 - `/dtr` — toggle Three Fangs trident PvP mode (default OFF)
 - `/aks` — opens accessories GUI (6 slots, 7 with Heart of Demon)
+- `/hellimpgive cloak|food|gravity|heart|all` — gives hellimp accessories
+- `/leomordgive` — gives Leomord items (refer to leomordmod source for details)
+
+## Build order (with dependencies)
+1. Independent mods: totemmod, villagermod, creepermod, elytramod, firemod, fireworkmod, modlogmod, adminmod, bettercrafter
+2. vulcadavmod (independent)
+3. larrymod (depends on vulcadavmod jar)
+4. settlementdestroyer (independent)
+5. hellimp (independent)
+6. crownmod (resource pack, no build needed)
+7. leomordmod (depends on hellimp + crownmod jars — place them in `leomordmod/libs/`)
 
 ## Server setup
 - Minecraft 1.21.11 Fabric
